@@ -13,6 +13,18 @@
 		4FB72BC3209E827A00AD3FCB /* MontrealApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FB72BC1209E827A00AD3FCB /* MontrealApp.xcdatamodeld */; };
 		4FB72BC5209E827D00AD3FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BC4209E827D00AD3FCB /* Assets.xcassets */; };
 		4FB72BC8209E827D00AD3FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BC6209E827D00AD3FCB /* LaunchScreen.storyboard */; };
+		4FB72BDB209E84ED00AD3FCB /* heartoutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BCF209E84EB00AD3FCB /* heartoutline.png */; };
+		4FB72BDC209E84ED00AD3FCB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD0209E84EB00AD3FCB /* search.png */; };
+		4FB72BDD209E84ED00AD3FCB /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD1209E84EB00AD3FCB /* favorite.png */; };
+		4FB72BDE209E84ED00AD3FCB /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD2209E84EB00AD3FCB /* fav.png */; };
+		4FB72BDF209E84ED00AD3FCB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD3209E84EB00AD3FCB /* back.png */; };
+		4FB72BE0209E84ED00AD3FCB /* srch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD4209E84EB00AD3FCB /* srch.png */; };
+		4FB72BE1209E84ED00AD3FCB /* pref.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD5209E84EC00AD3FCB /* pref.png */; };
+		4FB72BE2209E84ED00AD3FCB /* titre_montreal_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD6209E84EC00AD3FCB /* titre_montreal_yellow.png */; };
+		4FB72BE3209E84ED00AD3FCB /* heartfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD7209E84EC00AD3FCB /* heartfilled.png */; };
+		4FB72BE4209E84ED00AD3FCB /* preference.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD8209E84EC00AD3FCB /* preference.png */; };
+		4FB72BE5209E84ED00AD3FCB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BD9209E84EC00AD3FCB /* background.jpg */; };
+		4FB72BE6209E84ED00AD3FCB /* icon_city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FB72BDA209E84EC00AD3FCB /* icon_city.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		4FB72BC4209E827D00AD3FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB72BC7209E827D00AD3FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB72BC9209E827D00AD3FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB72BCF209E84EB00AD3FCB /* heartoutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartoutline.png; sourceTree = "<group>"; };
+		4FB72BD0209E84EB00AD3FCB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		4FB72BD1209E84EB00AD3FCB /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		4FB72BD2209E84EB00AD3FCB /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.png; sourceTree = "<group>"; };
+		4FB72BD3209E84EB00AD3FCB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4FB72BD4209E84EB00AD3FCB /* srch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = srch.png; sourceTree = "<group>"; };
+		4FB72BD5209E84EC00AD3FCB /* pref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pref.png; sourceTree = "<group>"; };
+		4FB72BD6209E84EC00AD3FCB /* titre_montreal_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titre_montreal_yellow.png; sourceTree = "<group>"; };
+		4FB72BD7209E84EC00AD3FCB /* heartfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartfilled.png; sourceTree = "<group>"; };
+		4FB72BD8209E84EC00AD3FCB /* preference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preference.png; sourceTree = "<group>"; };
+		4FB72BD9209E84EC00AD3FCB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		4FB72BDA209E84EC00AD3FCB /* icon_city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 		4FB72BB9209E827A00AD3FCB /* MontrealApp */ = {
 			isa = PBXGroup;
 			children = (
+				4FB72BE7209E84F800AD3FCB /* Images */,
 				4FB72BBA209E827A00AD3FCB /* AppDelegate.swift */,
 				4FB72BBC209E827A00AD3FCB /* ViewController.swift */,
 				4FB72BBE209E827A00AD3FCB /* Main.storyboard */,
@@ -65,6 +90,25 @@
 				4FB72BC1209E827A00AD3FCB /* MontrealApp.xcdatamodeld */,
 			);
 			path = MontrealApp;
+			sourceTree = "<group>";
+		};
+		4FB72BE7209E84F800AD3FCB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4FB72BD3209E84EB00AD3FCB /* back.png */,
+				4FB72BD9209E84EC00AD3FCB /* background.jpg */,
+				4FB72BD2209E84EB00AD3FCB /* fav.png */,
+				4FB72BD1209E84EB00AD3FCB /* favorite.png */,
+				4FB72BD7209E84EC00AD3FCB /* heartfilled.png */,
+				4FB72BCF209E84EB00AD3FCB /* heartoutline.png */,
+				4FB72BDA209E84EC00AD3FCB /* icon_city.jpg */,
+				4FB72BD5209E84EC00AD3FCB /* pref.png */,
+				4FB72BD8209E84EC00AD3FCB /* preference.png */,
+				4FB72BD0209E84EB00AD3FCB /* search.png */,
+				4FB72BD4209E84EB00AD3FCB /* srch.png */,
+				4FB72BD6209E84EC00AD3FCB /* titre_montreal_yellow.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +169,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB72BDC209E84ED00AD3FCB /* search.png in Resources */,
+				4FB72BDD209E84ED00AD3FCB /* favorite.png in Resources */,
+				4FB72BE0209E84ED00AD3FCB /* srch.png in Resources */,
 				4FB72BC8209E827D00AD3FCB /* LaunchScreen.storyboard in Resources */,
 				4FB72BC5209E827D00AD3FCB /* Assets.xcassets in Resources */,
+				4FB72BDF209E84ED00AD3FCB /* back.png in Resources */,
+				4FB72BE3209E84ED00AD3FCB /* heartfilled.png in Resources */,
+				4FB72BE1209E84ED00AD3FCB /* pref.png in Resources */,
+				4FB72BE4209E84ED00AD3FCB /* preference.png in Resources */,
+				4FB72BE5209E84ED00AD3FCB /* background.jpg in Resources */,
 				4FB72BC0209E827A00AD3FCB /* Main.storyboard in Resources */,
+				4FB72BDE209E84ED00AD3FCB /* fav.png in Resources */,
+				4FB72BDB209E84ED00AD3FCB /* heartoutline.png in Resources */,
+				4FB72BE2209E84ED00AD3FCB /* titre_montreal_yellow.png in Resources */,
+				4FB72BE6209E84ED00AD3FCB /* icon_city.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V2CQ8ZSEH;
 				INFOPLIST_FILE = MontrealApp/Info.plist;
@@ -302,8 +359,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V2CQ8ZSEH;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NSLog(...)=",
+					"printf(...)=",
+				);
 				INFOPLIST_FILE = MontrealApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
