@@ -12,12 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let apiManager = ApiManager<Landmark>()
+        let params = ["action": "lister"]
+        
+        
+        apiManager.postHTTPBodyEncodingReturnMappableArray(urlString: apiManager.postActivity(), param: params, completion: display)
     }
+    
+    func display(myLandmarks:Any?)->(){
+        guard let landmarks:[Landmark] = myLandmarks as? [Landmark] else{
+            print("No Landmark array")
+            return
+        }
+        for landmark in landmarks{
+            print ("\(landmark.title)")
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
