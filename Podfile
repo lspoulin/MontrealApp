@@ -8,4 +8,5 @@ target 'MontrealApp' do
   # Pods for MontrealApp
    pod 'Alamofire', '~> 4.7'
    pod 'ObjectMapper', '~> 3.1'
+   pod 'UICircularProgressRing'
 end

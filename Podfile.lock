@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (4.7.2)
   - ObjectMapper (3.1.0)
+  - UICircularProgressRing (2.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - ObjectMapper (~> 3.1)
+  - UICircularProgressRing
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - ObjectMapper
+    - UICircularProgressRing
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  UICircularProgressRing: f41663e98c0f40b4794461a4209a67569ea2cc28
 
-PODFILE CHECKSUM: 374d8ee0147e8b08b4285c774a34b145eba55da4
+PODFILE CHECKSUM: 7ca41da6a70e67c0ec068451b9129cd0c469f74b
 
 COCOAPODS: 1.5.0
